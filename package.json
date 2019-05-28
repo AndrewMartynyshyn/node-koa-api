@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./src/server/index.js",
+    "dev": "node ./src/server/index.js",
     "test": "./node_modules/mocha/bin/_mocha"
   },
   "keywords": [],
@@ -11,6 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "4.1.1",
+    "chai-http": "3.0.0",
     "mocha": "3.5.0"
+  },
+  "dependencies": {
+    "koa": "^2.7.0"
   }
 }
